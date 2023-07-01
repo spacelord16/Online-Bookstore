@@ -44,10 +44,20 @@ export const filterBooks = async (genre, minPrice, maxPrice) => {
     }
 };
 
+export const createBook = async (bookData) => {
+    try {
+        const response = await axios.post(`${BASE_URL}/books/`, bookData);
+        return response.data;
+    } catch (error) {
+        throw new Error('Failed to create book');
+    }
+};
+
 
 export default {
     getBooks,
     getBook,
     searchBooks,
-    filterBooks
+    filterBooks,
+    createBook,
 };
