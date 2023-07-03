@@ -8,13 +8,6 @@ This is a web application that allows users to browse and explore a collection o
 - Back-end: Django, Django REST Framework
 - Database: SQLite (default for Django)
 
-## Features
-
-- View a list of available books
-- Click on a book to view its details
-- Search for books based on title, author, or genre
-- Filter books based on genre, publication date, or price range
-
 ## Getting Started
 
 ### Prerequisites
