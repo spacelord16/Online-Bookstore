@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,52 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Bookstore Web Application
+
+This is a web application that allows users to browse and explore a collection of books. Users can view book details, search for books, and filter books based on various criteria.
+
+## Technologies Used
+
+- Front-end: React.js, React Router
+- Back-end: Django, Django REST Framework
+- Database: SQLite (default for Django)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14.0.0 or higher)
+- Python (v3.6 or higher)
+- Django (v3.0 or higher)
+
+### Installation
+
+Clone the repository:
+   ```bash
+   git clone https://github.com/spacelord16/Online-Bookstore.git
+
+Navigate to the project directory:
+  ```bash
+  pip install -r requirements.txt
+
+Install the required dependencies for the backend 
+  ```bash
+  pip install -r requirements.txt
+
+Install the required dependencies for the frontend:
+  ```bash
+  npm install
+
+Start the backend server:
+  ```bash
+  cd backend
+  python manage.py runserver
+
+Start the frontend development server:
+  ```bash
+  cd frontend
+  npm start
+
+Open your web browser and visit http://localhost:3000 to access the application.
+>>>>>>> 451e4a656de951fc3d5f9454ce531d030cea1bf3
