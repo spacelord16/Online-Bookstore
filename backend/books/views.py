@@ -2,6 +2,10 @@ from rest_framework import generics
 from .models import Book, Cart, Order
 from .serializers import BookSerializers, CartSerializers, OrderSerializers
 from django.db.models import Q 
+from django.core.paginator import Paginator
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+
 
 class BookListAPIView(generics.ListAPIView):
     queryset = Book.objects.all()
@@ -24,6 +28,10 @@ class BookSearchAPIView(generics.ListAPIView):
             )
         else:
             return Book.objects.all()
+
+class BookCreateAPIView(generics.CreateAPIView):
+    queryset = Book.objects.all()
+    serializer_class = BookSerializers
 
 class BookFilterAPIView(generics.ListAPIView):
     serializer_class = BookSerializers
@@ -74,4 +82,13 @@ class OrderDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
     
     def get_queryset(self):
         user = self.request.user
-        return Order.objects.filter(user=user) 
+        return Order.objects.filter(user=user)
+    
+@api_view(['GET'])
+def book_list(request):
+    books = Book.objects.all()
+    paginator = Paginator(books, request.GET.get('pageSize', 10))
+    page_number = request.GET.get('page', 1)
+    page = paginator.get_page(page_number)
+    serializer = BookSerializers(page, many=True)
+    return Response(serializer.data)

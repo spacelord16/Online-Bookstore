@@ -22,5 +22,6 @@ from books.views import BookListAPIView
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include('books.urls')),
+    path('', include('books.urls')),
     path('', BookListAPIView.as_view(), name='book-list'),
 ]

@@ -1,0 +1,608 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "BookListAPIView",
+        "importPath": "books.views",
+        "description": "books.views",
+        "isExtraImport": true,
+        "detail": "books.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.backend.asgi",
+        "description": "backend.backend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-&yxx1*n^i_vnz83#ufqf2p59m-h1815menn*)c3d*__674^z5=\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-&yxx1*n^i_vnz83#ufqf2p59m-h1815menn*)c3d*__674^z5=\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"books\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"books\",\n    \"rest_framework\",\n    'corsheaders',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    'corsheaders.middleware.CorsMiddleware',\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "ROOT_URLCONF = \"backend.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"backend.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": os.path.join(BASE_DIR, \"db.sqlite3\"),\n    }\n}\n# Password validation",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": os.path.join(BASE_DIR, \"db.sqlite3\"),\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",},\n    {\"NAME\": \"django.contrib.auth.password_validation.NumericPasswordValidator\",},\n]\n# Internationalization\n# https://docs.djangoproject.com/en/4.2/topics/i18n/",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ORIGIN_WHITELIST = [",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ORIGIN_WHITELIST = [\n    'http://localhost:3000',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ORIGIN_WHITELIST = [\n    'http://localhost:3000',\n]",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ORIGIN_WHITELIST = [\n    'http://localhost:3000',\n]",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\nCORS_ORIGIN_WHITELIST = [\n    'http://localhost:3000',\n]",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_WHITELIST",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "CORS_ORIGIN_WHITELIST = [\n    'http://localhost:3000',\n]",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.backend.urls",
+        "description": "backend.backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"api/\", include('books.urls')),\n    path('', include('books.urls')),\n    path('', BookListAPIView.as_view(), name='book-list'),\n]",
+        "detail": "backend.backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.backend.wsgi",
+        "description": "backend.backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.books.migrations.0001_initial",
+        "description": "backend.books.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Book\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "backend.books.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.books.migrations.0002_order_orderitem_order_books_order_user_cart",
+        "description": "backend.books.migrations.0002_order_orderitem_order_books_order_user_cart",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"books\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Order\",\n            fields=[\n                (",
+        "detail": "backend.books.migrations.0002_order_orderitem_order_books_order_user_cart",
+        "documentation": {}
+    },
+    {
+        "label": "BooksConfig",
+        "kind": 6,
+        "importPath": "backend.books.apps",
+        "description": "backend.books.apps",
+        "peekOfCode": "class BooksConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"books\"",
+        "detail": "backend.books.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "backend.books.models",
+        "description": "backend.books.models",
+        "peekOfCode": "class Book(models.Model):\n    title = models.CharField(max_length=255)\n    author = models.CharField(max_length=255)\n    description = models.TextField()\n    cover_image = models.ImageField(upload_to='book_covers/')\n    price = models.DecimalField(max_digits=5, decimal_places=2)\n    rating = models.FloatField(default=0)\n    genre = models.CharField(max_length=255)\n    publication_date = models.DateField()\n    def __str__(self):",
+        "detail": "backend.books.models",
+        "documentation": {}
+    },
+    {
+        "label": "Cart",
+        "kind": 6,
+        "importPath": "backend.books.models",
+        "description": "backend.books.models",
+        "peekOfCode": "class Cart(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    book = models.ForeignKey(Book, on_delete=models.CASCADE)\n    quantity = models.PositiveIntegerField(default=1)\nclass Order(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    books = models.ManyToManyField(Book, through='OrderItem')\n    total_amount = models.DecimalField(max_digits=8, decimal_places=2)\n    shipping_address = models.TextField()\n    def __str__(self):",
+        "detail": "backend.books.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "backend.books.models",
+        "description": "backend.books.models",
+        "peekOfCode": "class Order(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    books = models.ManyToManyField(Book, through='OrderItem')\n    total_amount = models.DecimalField(max_digits=8, decimal_places=2)\n    shipping_address = models.TextField()\n    def __str__(self):\n        return f\"Order #{self.pk} by {self.user.username}\"\nclass OrderItem(models.Model):\n    order = models.ForeignKey(Order, on_delete=models.CASCADE)\n    book = models.ForeignKey(Book, on_delete=models.CASCADE)",
+        "detail": "backend.books.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "backend.books.models",
+        "description": "backend.books.models",
+        "peekOfCode": "class OrderItem(models.Model):\n    order = models.ForeignKey(Order, on_delete=models.CASCADE)\n    book = models.ForeignKey(Book, on_delete=models.CASCADE)\n    quantity = models.PositiveIntegerField()",
+        "detail": "backend.books.models",
+        "documentation": {}
+    },
+    {
+        "label": "BookSerializers",
+        "kind": 6,
+        "importPath": "backend.books.serializers",
+        "description": "backend.books.serializers",
+        "peekOfCode": "class BookSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = Book\n        fields = '__all__'\nclass CartSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = Cart\n        fields = '__all__'\nclass OrderSerializers(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "backend.books.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CartSerializers",
+        "kind": 6,
+        "importPath": "backend.books.serializers",
+        "description": "backend.books.serializers",
+        "peekOfCode": "class CartSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = Cart\n        fields = '__all__'\nclass OrderSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = Order\n        fields = '__all__'",
+        "detail": "backend.books.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderSerializers",
+        "kind": 6,
+        "importPath": "backend.books.serializers",
+        "description": "backend.books.serializers",
+        "peekOfCode": "class OrderSerializers(serializers.ModelSerializer):\n    class Meta:\n        model = Order\n        fields = '__all__'",
+        "detail": "backend.books.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.books.urls",
+        "description": "backend.books.urls",
+        "peekOfCode": "urlpatterns = [\n    path('books/', BookListAPIView.as_view(), name='book-list'),\n    path('books/<int:pk>/', BookDetailAPIView.as_view(), name='book-detail'),\n    path('books/search/', BookListAPIView.as_view(), name='book-search'),\n    path('books/filter/', BookFilterAPIView.as_view(), name='book-filter'),\n    path('carts/', CartListAPIView.as_view(), name='cart-list'),\n    path('cart/<int:pk>/', CartDetailAPIView.as_view(), name='cart-detail'),\n    path('orders/', OrderListAPIView.as_view(), name='order-list'),\n    path('order/<int:pk>/', OrderDetailAPIView.as_view(), name='order-detail'),\n    path('api/books/create/', BookCreateAPIView.as_view(), name='book-create'),",
+        "detail": "backend.books.urls",
+        "documentation": {}
+    },
+    {
+        "label": "BookListAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class BookListAPIView(generics.ListAPIView):\n    queryset = Book.objects.all()\n    serializer_class = BookSerializers\nclass BookDetailAPIView(generics.RetrieveAPIView):\n    queryset = Book.objects.all()\n    serializer_class = BookSerializers\nclass BookSearchAPIView(generics.ListAPIView):\n    serializer_class = BookSerializers\n    def get_query(self):\n        query = self.request.query_params.get('q')  ",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookDetailAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class BookDetailAPIView(generics.RetrieveAPIView):\n    queryset = Book.objects.all()\n    serializer_class = BookSerializers\nclass BookSearchAPIView(generics.ListAPIView):\n    serializer_class = BookSerializers\n    def get_query(self):\n        query = self.request.query_params.get('q')  \n        if query:\n            return Book.objects.filter(\n                Q(title__icontains=query) |",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookSearchAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class BookSearchAPIView(generics.ListAPIView):\n    serializer_class = BookSerializers\n    def get_query(self):\n        query = self.request.query_params.get('q')  \n        if query:\n            return Book.objects.filter(\n                Q(title__icontains=query) |\n                Q(author__icontains=query) |\n                Q(genre__icontains=query)\n            )",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreateAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class BookCreateAPIView(generics.CreateAPIView):\n    queryset = Book.objects.all()\n    serializer_class = BookSerializers\nclass BookFilterAPIView(generics.ListAPIView):\n    serializer_class = BookSerializers\n    def get_queryset(self):\n        genre = self.request.query_params.get('genre')\n        min_price = self.request.query_params.get('min_price')\n        max_price = self.request.query_params.get('max_price')\n        queryset = Book.objects.all()",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookFilterAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class BookFilterAPIView(generics.ListAPIView):\n    serializer_class = BookSerializers\n    def get_queryset(self):\n        genre = self.request.query_params.get('genre')\n        min_price = self.request.query_params.get('min_price')\n        max_price = self.request.query_params.get('max_price')\n        queryset = Book.objects.all()\n        if genre:\n            queryset = queryset.filter(genre=genre)\n        if min_price:",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "CartListAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class CartListAPIView(generics.ListAPIView):\n    serializer_class = CartSerializers\n    def get_queryset(self):\n        user = self.request.user\n        return Cart.objects.filter(user=user)\n    def perform_create(self, serializer):\n        serializer.save(user=self.request.user)\nclass CartDetailAPIView(generics.RetrieveUpdateDestroyAPIView):\n    serializer_class = CartSerializers\n    def get_queryset(self):",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "CartDetailAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class CartDetailAPIView(generics.RetrieveUpdateDestroyAPIView):\n    serializer_class = CartSerializers\n    def get_queryset(self):\n        user = self.request.user\n        return Cart.objects.filter(user=user)\nclass OrderListAPIView(generics.ListAPIView):\n    serializer_class = OrderSerializers\n    def get_queryset(self):\n        user = self.request.user\n        return Order.objects.filter(user=user)",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderListAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class OrderListAPIView(generics.ListAPIView):\n    serializer_class = OrderSerializers\n    def get_queryset(self):\n        user = self.request.user\n        return Order.objects.filter(user=user)\nclass OrderDetailAPIView(generics.RetrieveUpdateDestroyAPIView):\n    serializer_class = OrderSerializers\n    def get_queryset(self):\n        user = self.request.user\n        return Order.objects.filter(user=user)",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDetailAPIView",
+        "kind": 6,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "class OrderDetailAPIView(generics.RetrieveUpdateDestroyAPIView):\n    serializer_class = OrderSerializers\n    def get_queryset(self):\n        user = self.request.user\n        return Order.objects.filter(user=user)\n@api_view(['GET'])\ndef book_list(request):\n    books = Book.objects.all()\n    paginator = Paginator(books, request.GET.get('pageSize', 10))\n    page_number = request.GET.get('page', 1)",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "book_list",
+        "kind": 2,
+        "importPath": "backend.books.views",
+        "description": "backend.books.views",
+        "peekOfCode": "def book_list(request):\n    books = Book.objects.all()\n    paginator = Paginator(books, request.GET.get('pageSize', 10))\n    page_number = request.GET.get('page', 1)\n    page = paginator.get_page(page_number)\n    serializer = BookSerializers(page, many=True)\n    return Response(serializer.data)",
+        "detail": "backend.books.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.manage",
+        "description": "backend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"backend.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "backend.manage",
+        "documentation": {}
+    }
+]

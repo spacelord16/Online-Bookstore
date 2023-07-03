@@ -1,33 +1,49 @@
-import React, {useEffect, useState} from "react";
-import { getBooks } from '../services/api';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import BookItem from './BookItem';
+import AddBookForm from './AddBookForm';
 
-function BookList() {
-    const [books, setBooks] = useState([]);
+const BookList = () => {
+  const [books, setBooks] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(10);
 
-    useEffect(() => {
-        fetchBook();
-    }, []);
+  useEffect(() => {
+    fetchBooks();
+  }, [currentPage, pageSize]);
 
-    const fetchBook = async () => {
-        try {
-            const response = await getBooks();
-            setBooks(response.data);
-        } catch (error) {
-            console.error('Error fetching books: ', error);
-        }
-    };
+  const fetchBooks = async () => {
+    try {
+      const response = await axios.get(
+        `/api/books/?page=${currentPage}&pageSize=${pageSize}`
+      );
+      setBooks(response.data);
+    } catch (error) {
+      console.log('Failed to fetch books:', error);
+    }
+  };
 
-    return (
-        <div>
-            <h2>Book List</h2>
-            {/* Display Books */}
-            {books.map((book) => (
-                <div key={book.id}>
-                    <h3>{book.title}</h3>
-                </div>
-            ))}
-        </div>
-    );
-}
+  return (
+    <div>
+      <h1>Book List</h1>
+
+      <AddBookForm />
+
+      {books.map((book) => (
+        <BookItem key={book.id} book={book} />
+      ))}
+
+      <div>
+        <button
+          onClick={() => setCurrentPage(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          Previous
+        </button>
+        <button onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
+      </div>
+    </div>
+  );
+};
 
 export default BookList;

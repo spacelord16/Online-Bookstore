@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+/curl-8.1.2_3-win64-mingw/
 
 # C extensions
 *.so
