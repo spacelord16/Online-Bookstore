@@ -25,28 +25,28 @@ This is a web application that allows users to browse and explore a collection o
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/spacelord16/Online-Bookstore.git
 
-2. Navigate to the project directory:
+Navigate to the project directory:
   ```bash
   pip install -r requirements.txt
 
-3. Install the required dependencies for the backend 
+Install the required dependencies for the backend 
   ```bash
   pip install -r requirements.txt
 
-4. Install the required dependencies for the frontend:
+Install the required dependencies for the frontend:
   ```bash
   npm install
 
-5. Start the backend server:
+Start the backend server:
   ```bash
   cd backend
   python manage.py runserver
 
-6. Start the frontend development server:
+Start the frontend development server:
   ```bash
   cd frontend
   npm start
